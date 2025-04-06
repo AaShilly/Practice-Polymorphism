@@ -15,6 +15,7 @@ class Teacher extends Person {
     return count;
   }
 
+  //Instance method uses polymorphism function overriding to overwrite the parent class instance method.
   introduce(){
     return `Hello. I am ${this.firstName} ${this.lastName}, and I have been teaching ${this.subject} for ${this.yearsOfExperience} years.`
   }
